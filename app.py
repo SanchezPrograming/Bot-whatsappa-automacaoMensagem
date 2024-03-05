@@ -3,7 +3,7 @@ from urllib.parse  import quote
 import webbrowser
 from time import sleep
 import pyautogui
-import keyboard
+
 
 workbook = openpyxl.load_workbook('clientes.xlsx')
 pagina_clientes  = workbook['Worksheet']
